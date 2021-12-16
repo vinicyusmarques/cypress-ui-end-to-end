@@ -1,7 +1,4 @@
 node_modules
 cypress/videos
-mochawesome-report
-index.json
-package-lock.json
 cypress/screenshots 
 .DS_store
