@@ -15,11 +15,11 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Check out code
+      - name: Check out code 🛎
         uses: actions/checkout@v2
         
-      - name: Check out code
-        uses: actions/checkout@v2
+      - name: E2E & UI 🧪
+        uses: cypress-io/github-action@v2
         
       - name: Upload a Build Artifact
         if: always()
